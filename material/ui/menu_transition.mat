@@ -1,0 +1,4 @@
+material : "ui"
+{
+	texture : "menu_transition.tobj"
+}

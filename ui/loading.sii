@@ -1,0 +1,176 @@
+SiiNunit
+{
+ui::window : _nameless.01A7.563C {
+ clip_children: true
+ window_handler: null
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless.0C3E.55A4
+ my_children[1]: _nameless.0BFE.CE6C
+ my_children[2]: _nameless.0C18.D04C
+ my_children[3]: _nameless.0C18.D194
+ my_children[4]: _nameless.0BFF.AE04
+ my_children[5]: _nameless.01A8.C4CC
+ name: ""
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 768
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 768
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless.0C3E.55A4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ name: Background
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 768
+ coords_b: 0
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+ui::group : _nameless.0BFE.CE6C {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.0C10.FB7C
+ name: ""
+ coords_l: 388
+ coords_r: 636
+ coords_t: 242
+ coords_b: 223
+ area_l: 388
+ area_r: 636
+ area_t: 242
+ area_b: 223
+ id: 100
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+ui::text : _nameless.0C10.FB7C {
+ text: "<img src=/material/ui/white.mat xscale=repeat yscale=repeat color=FF00A2FF>"
+ name: ""
+ coords_l: 388
+ coords_r: 636
+ coords_t: 242
+ coords_b: 223
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 110
+ layer: 2
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.0BFE.CE6C
+}
+
+ui::text : _nameless.0C18.D04C {
+ text: "<img src=/material/ui/logo/et.mat kr=center>"
+ name: ""
+ coords_l: 257
+ coords_r: 769
+ coords_t: 741
+ coords_b: 229
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+ui::text : _nameless.0C18.D194 {
+ text: "<img src=/material/ui/white.mat xscale=repeat yscale=repeat color=FF99DAFF>"
+ name: ""
+ coords_l: 388
+ coords_r: 636
+ coords_t: 242
+ coords_b: 223
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: 1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+ui::text : _nameless.0BFF.AE04 {
+ text: "<offset hshift=16><img src=/material/ui/white.mat width=-16 height=2 color=FFCCCCCC><ret><offset hshift=16 vshift=30><img src=/material/ui/white.mat width=-16 height=2 color=FFCCCCCC><ret><img src=/material/ui/white.mat width=12 height=2 color=FF00A2FF><ret><offset vshift=30><img src=/material/ui/white.mat width=12 height=2 color=FF00A2FF><ret><img src=/material/ui/white.mat width=2 height=32 color=FF00A2FF><ret><align hstyle=right><img src=/material/ui/white.mat width=12 height=2 color=FF00A2FF></align><ret><align hstyle=right><offset vshift=30><img src=/material/ui/white.mat width=12 height=2 color=FF00A2FF></align><ret><align hstyle=right><img src=/material/ui/white.mat width=2 height=32 color=FF00A2FF></align>"
+ name: ""
+ coords_l: 408
+ coords_r: 613
+ coords_t: 316
+ coords_b: 284
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: 1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+ui::text_common : _nameless.01A8.C4CC {
+ value: "<color value=@@rgb_gr_d@@>@@ui_loading@@"
+ look_template: txt.normal.center
+ text: "<align hstyle=center vstyle=center><font face=/font/@@encoding@@/normal.font><color value=@@rgb_gr_d@@>@@ui_loading@@</font></align>"
+ name: ""
+ coords_l: 408
+ coords_r: 613
+ coords_t: 316
+ coords_b: 284
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: 2
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.563C
+}
+
+}

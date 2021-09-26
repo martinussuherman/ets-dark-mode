@@ -1,0 +1,68 @@
+SiiNunit
+{
+ui::window : _nameless.01A7.D65C {
+ clip_children: true
+ window_handler: null
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.0BFD.FEFC
+ my_children[1]: _nameless.019C.2B3C
+ name: ""
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 768
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 768
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless.0BFD.FEFC {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ name: ""
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 768
+ coords_b: 0
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 0
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.D65C
+}
+
+ui::text : _nameless.019C.2B3C {
+ text: "<align hstyle=center vstyle=center><img src=/material/ui/logo/et.mat color=$ALPHA$FFFFFF kr=center>"
+ name: ""
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 768
+ coords_b: 0
+ area_l: &ff7d87d7
+ area_r: &ff7d87d7
+ area_t: &ff7d87d7
+ area_b: &ff7d87d7
+ id: 100
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ my_parent: _nameless.01A7.D65C
+}
+
+}
